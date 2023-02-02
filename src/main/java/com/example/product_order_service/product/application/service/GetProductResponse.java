@@ -1,4 +1,6 @@
-package com.example.product_order_service.product;
+package com.example.product_order_service.product.application.service;
+
+import com.example.product_order_service.product.domain.DiscountPolicy;
 
 import static org.springframework.util.Assert.hasText;
 import static org.springframework.util.Assert.notNull;

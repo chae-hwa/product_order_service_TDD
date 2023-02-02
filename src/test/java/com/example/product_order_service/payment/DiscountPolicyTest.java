@@ -1,6 +1,6 @@
 package com.example.product_order_service.payment;
 
-import com.example.product_order_service.product.DiscountPolicy;
+import com.example.product_order_service.product.domain.DiscountPolicy;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

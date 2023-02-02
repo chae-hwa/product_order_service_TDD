@@ -1,6 +1,6 @@
-package com.example.product_order_service.payment;
+package com.example.product_order_service.payment.domain;
 
-import com.example.product_order_service.order.Order;
+import com.example.product_order_service.order.domain.Order;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,6 +12,7 @@ import javax.persistence.*;
 @Table(name = "payment")
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
+public
 class Payment {
 
     @Id

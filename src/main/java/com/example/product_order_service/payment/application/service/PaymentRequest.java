@@ -1,4 +1,4 @@
-package com.example.product_order_service.payment;
+package com.example.product_order_service.payment.application.service;
 
 import static org.springframework.util.Assert.hasText;
 import static org.springframework.util.Assert.notNull;
