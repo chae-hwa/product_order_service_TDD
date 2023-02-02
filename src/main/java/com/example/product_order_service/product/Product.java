@@ -12,6 +12,7 @@ import static org.springframework.util.Assert.*;
 @Table(name = "products")
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
+public
 class Product {
 
     @Id
